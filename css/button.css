@@ -1,0 +1,11 @@
+.increase-buttons, .decrease-buttons
+{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.increase-buttons input, .decrease-buttons input
+{
+  flex-basis: 100%;
+}

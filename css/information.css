@@ -1,0 +1,31 @@
+.information
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
+
+.grid
+{
+  flex-basis: 25%;
+}
+
+.color
+{
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-color
+{
+  width: 20px;
+  height: 20px;
+}
+
+input
+{
+  outline: none;
+}

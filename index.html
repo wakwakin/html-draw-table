@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Color Table</title>
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/frame.css">
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jQuery.js"></script>
+  </head>
+  <body>
+    <div class="increase-buttons">
+      <input class="increase" type="button" value="+ Row">
+      <input class="increase" type="button" value="+ Column">
+      <input class="increase" type="button" value="Show Grid">
+    </div>
+    <div class="decrease-buttons">
+      <input class="increase" type="button" value="Set Background">
+      <input class="increase" type="button" value="Set Text">
+      <input class="increase" type="button" value="Remove Grid">
+    </div>
+    <div class="frame-container">
+      <div class="frame">
+        <table>
+        </table>
+      </div>
+    </div>
+    <div class="information">
+      <div class="grid">
+        <p></p>
+      </div>
+      <div class="color">
+        <input class="color-input" type="text" placeholder="Color #000000 or White">
+        <div class="current-color"></div>
+      </div>
+    </div>
+    <script src="js/increase.js"></script>
+    <script src="js/decrease.js"></script>
+    <script src="js/color.js"></script>
+  </body>
+</html>
